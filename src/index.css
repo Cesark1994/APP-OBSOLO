@@ -1,0 +1,15 @@
+/* Estilo para el cuerpo del documento */
+body {
+  font-family: Arial, sans-serif; /* Fuente de texto */
+  margin: 0; /* Elimina el margen predeterminado */
+  padding: 0; /* Elimina el relleno predeterminado */
+  background-color: #f4f4f4; /* Color de fondo gris claro */
+}
+
+/* Estilo para el contenedor principal de la aplicación */
+#root {
+  display: flex; /* Utiliza un diseño flexbox */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  height: 100vh; /* Altura del contenedor igual a la altura de la ventana */
+}

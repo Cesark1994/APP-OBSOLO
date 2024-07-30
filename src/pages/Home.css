@@ -1,0 +1,34 @@
+/* src/pages/Home.css */
+
+/* Estilo para el contenedor principal de la página de inicio */
+.home-container {
+  display: flex; /* Utiliza flexbox para el diseño */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+  background-image: url('/src/assets/images/APP.jpeg'); /* Imagen de fondo */
+  background-size: cover; /* La imagen cubre todo el contenedor */
+  background-position: center; /* Centra la imagen de fondo */
+  color: rgb(17, 21, 235); /* Color del texto */
+  text-align: center; /* Alinea el texto al centro */
+  padding: 20px; /* Espaciado interno */
+  box-sizing: border-box; /* Incluye el padding y el borde en el tamaño total del elemento */
+}
+
+/* Estilo para el mensaje de bienvenida */
+.welcome-message {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo para el encabezado del mensaje de bienvenida */
+.welcome-message h1 {
+  font-size: 3em; /* Tamaño de fuente grande */
+  margin: 0; /* Sin margen */
+}
+
+/* Estilo para el párrafo del mensaje de bienvenida */
+.welcome-message p {
+  font-size: 1.5em; /* Tamaño de fuente mediano */
+}

@@ -1,0 +1,28 @@
+/* src/components/SongsList.css */
+
+/* Contenedor principal para la lista de canciones */
+.songs-container {
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco */
+  min-height: 100vh; /* Altura mínima de 100% de la altura de la ventana */
+  padding: 20px; /* Espaciado interno de 20px */
+  text-align: center; /* Centrar el texto */
+}
+
+/* Estilo para el título de la lista de canciones */
+.songs-title {
+  font-size: 3em; /* Tamaño de fuente grande */
+  margin-bottom: 20px; /* Margen inferior de 20px */
+}
+
+/* Estilo para la lista de canciones */
+.songs-list {
+  list-style-type: none; /* Sin estilo de lista por defecto */
+  padding: 0; /* Sin espaciado interno */
+}
+
+/* Estilo para cada ítem de la lista de canciones */
+.song-item {
+  font-size: 1.5em; /* Tamaño de fuente mediano */
+  margin: 10px 0; /* Margen superior e inferior de 10px */
+}

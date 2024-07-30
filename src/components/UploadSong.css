@@ -1,0 +1,61 @@
+/* src/components/UploadSong.css */
+
+/* Estilo para el contenedor principal del formulario de subida de canciones */
+.upload-song {
+  background-color: white; /* Fondo blanco */
+  color: black; /* Texto negro */
+  padding: 20px; /* Espaciado interno de 20px */
+  border-radius: 8px; /* Bordes redondeados de 8px */
+  max-width: 400px; /* Ancho máximo de 400px */
+  margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
+
+/* Estilo para el título dentro del contenedor de subida de canciones */
+.upload-song h2 {
+  text-align: center; /* Centrar el texto */
+}
+
+/* Estilo para el formulario dentro del contenedor de subida de canciones */
+.upload-song form {
+  display: flex; /* Usar flexbox para el diseño */
+  flex-direction: column; /* Colocar los elementos en una columna */
+}
+
+/* Estilo para cada div dentro del formulario */
+.upload-song form div {
+  margin-bottom: 15px; /* Margen inferior de 15px */
+}
+
+/* Estilo para las etiquetas dentro del formulario */
+.upload-song form label {
+  margin-bottom: 5px; /* Margen inferior de 5px */
+}
+
+/* Estilo para los campos de texto y archivo dentro del formulario */
+.upload-song form input[type="text"], .upload-song form input[type="file"] {
+  padding: 10px; /* Espaciado interno de 10px */
+  border: 1px solid #ccc; /* Borde de 1px sólido y color gris claro */
+  border-radius: 4px; /* Bordes redondeados de 4px */
+}
+
+/* Estilo para el botón dentro del formulario */
+.upload-song form button {
+  padding: 10px; /* Espaciado interno de 10px */
+  border: none; /* Sin borde */
+  border-radius: 4px; /* Bordes redondeados de 4px */
+  background-color: blue; /* Fondo azul */
+  color: white; /* Texto blanco */
+  cursor: pointer; /* Cambiar el cursor a un puntero al pasar sobre el botón */
+}
+
+/* Estilo para los mensajes de error */
+.error {
+  color: red; /* Texto rojo */
+  margin-top: 10px; /* Margen superior de 10px */
+}
+
+/* Estilo para los mensajes de éxito */
+.success {
+  color: green; /* Texto verde */
+  margin-top: 10px; /* Margen superior de 10px */
+}
